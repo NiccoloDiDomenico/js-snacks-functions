@@ -5,8 +5,19 @@ const name = 'Mario';
 
 // Dichiara la funzione qui.
 
+/**
+ * Definisci un saluto con dei parametri
+ * @param {string} name
+ * @returns {string}
+ */
+function greetings(name) {
+    return "Ciao " + name
+}
+
 
 // Invoca la funzione qui e stampa il risultato in console
+greetings(name);
+console.log(greetings(name));
 
 
 
