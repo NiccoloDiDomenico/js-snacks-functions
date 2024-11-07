@@ -16,8 +16,8 @@ function initialsNames(arrayToCheck) {
     const result = [];
 
     // Creo un ciclo per selezionare ogni elemento dell'arrey da controllare
-    for (let i = 0; i < names.length; i++) {
-        const currentName = names[i];
+    for (let i = 0; i < arrayToCheck.length; i++) {
+        const currentName = arrayToCheck[i];
         console.log(currentName);
 
         // Creo una variabile vuota alla quale aggiongerò ogni iniziale di ogni nome
@@ -37,7 +37,7 @@ function initialsNames(arrayToCheck) {
         result.push(firstLetter)
     }
     
-    console.log(firstNameLetter);
+    console.log(result);
     return result
 }
 
@@ -48,3 +48,5 @@ console.log(initialsNames(names));
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
+
+
